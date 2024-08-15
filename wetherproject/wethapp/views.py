@@ -11,12 +11,12 @@ def home(request):
     else:
          city = 'kochi'     
     
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={"e587aef25c37e3120e9db16978538444"}'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={"API KEY"}'
     PARAMS = {'units':'metric'}
 
-    API_KEY =  'AIzaSyCMMV7sXOqbAc2UrOzybofZ4zHZae1ng1M'
+    API_KEY =  'API KEY'
 
-    SEARCH_ENGINE_ID = '13784aaa653044422'
+    SEARCH_ENGINE_ID = 'ENGINE_ID'
      
     query = city + " 1920x1080"
     page = 1
